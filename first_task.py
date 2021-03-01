@@ -1,7 +1,6 @@
 from array_generation import *
 
-
-def zero_to_one(size):
+def generate_sorted_float_array(left_bound, right_bound, size):
     array = float_array(0., 1., size)
     return sort_array(array)
 
