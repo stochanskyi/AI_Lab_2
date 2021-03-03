@@ -19,7 +19,6 @@ def task_1_action_2():
 
 
 def task_1_action_3():
-
     size = size_input.get()
     generated_array = int_array(0, 50, int(size))
     generated_array_label['text'] = generated_array
